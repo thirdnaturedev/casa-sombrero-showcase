@@ -5,6 +5,10 @@
 </p>
 
 <p align="center">
+  <a href="https://casa-sombrero.vercel.app"><strong>View the live experience →</strong></a>
+</p>
+
+<p align="center">
   <img src="screenshots/desktop-home.png" alt="Casa Sombrero immersive desktop experience" width="100%" />
 </p>
 
@@ -15,6 +19,8 @@ Casa Sombrero was designed as an alternative to the conventional scrolling resta
 The desktop experience behaves like an immersive visual scene, while mobile visitors receive a focused ordering interface designed for touch, clarity, and speed.
 
 A single website and one domain serve both experiences.
+
+**Live site:** https://casa-sombrero.vercel.app
 
 ## Desktop Experience
 
@@ -130,9 +136,9 @@ The public repository is intentionally not a complete buildable copy of the prod
 
 ## Project Status
 
-**Production application completed.**
+**Production application completed and deployed.**
 
-Security review, dependency review, documentation, and deployment preparation have been completed.
+Security review, dependency review, documentation, responsive QA, and deployment preparation have been completed.
 
 ## Rights
 
