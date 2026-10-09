@@ -1,16 +1,28 @@
 # Casa Sombrero
 
-An immersive digital restaurant experience built for Casa Sombrero.
+<p align="center">
+  <strong>An immersive digital restaurant experience combining a cinematic desktop website with a focused mobile ordering flow.</strong>
+</p>
 
-Casa Sombrero combines a cinematic desktop presentation with a focused mobile ordering experience.
+<p align="center">
+  <img src="screenshots/desktop-home.png" alt="Casa Sombrero immersive desktop experience" width="100%" />
+</p>
+
+## Overview
+
+Casa Sombrero was designed as an alternative to the conventional scrolling restaurant website.
+
+The desktop experience behaves like an immersive visual scene, while mobile visitors receive a focused ordering interface designed for touch, clarity, and speed.
+
+A single website and one domain serve both experiences.
 
 ## Experience
 
 ### Desktop
 
-The desktop website is designed as an immersive restaurant scene rather than a traditional scrolling website.
+The desktop experience is built around a cinematic restaurant environment rather than stacked webpage sections.
 
-The experience includes:
+It includes:
 
 - Main Dishes
 - Starters
@@ -35,15 +47,26 @@ Customers can:
 - Enter delivery details
 - Use table-specific dine-in flows
 
-One domain serves both experiences.
+<p align="center">
+  <img src="screenshots/mobile-home.png" alt="Casa Sombrero mobile ordering experience" width="390" />
+</p>
+
+## Responsive Strategy
+
+Casa Sombrero uses one website and one deployment.
+
+- **Desktop / Laptop** → immersive restaurant experience
+- **Mobile** → focused ordering experience
+
+There is no separate mobile website or secondary domain.
 
 ## Technology
 
 Built with:
 
 - Next.js
-- TypeScript
 - React
+- TypeScript
 - Tailwind CSS
 - Framer Motion
 - GSAP
@@ -53,14 +76,11 @@ Built with:
 
 ## Design Direction
 
-Casa Sombrero was intentionally designed to avoid the structure of a conventional restaurant website.
-
 The desktop experience prioritizes:
 
 - cinematic composition
 - visual storytelling
-- depth
-- atmosphere
+- depth and atmosphere
 - object-based interaction
 - controlled motion
 - immersive transitions
@@ -71,34 +91,45 @@ The mobile experience prioritizes:
 - touch interaction
 - ordering speed
 - simple navigation
-- restaurant-brand continuity
+- strong restaurant-brand continuity
 
-## Responsive Strategy
+## Architecture
 
-Casa Sombrero uses one website and one domain.
+The production application uses the Next.js App Router and separates the immersive desktop presentation from the transactional mobile ordering experience.
 
-Desktop visitors receive the immersive restaurant experience.
+High-level documentation is available in:
 
-Mobile visitors receive the mobile ordering interface.
+- [`docs/FEATURES.md`](docs/FEATURES.md)
+- [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)
+- [`docs/DESIGN.md`](docs/DESIGN.md)
+- [`docs/PUBLIC_PRIVATE_BOUNDARY.md`](docs/PUBLIC_PRIVATE_BOUNDARY.md)
 
-There is no separate mobile website.
-
-## Public Showcase
+## Public Showcase Boundary
 
 This repository is a public presentation of the Casa Sombrero project.
 
 The complete production application is maintained separately in a private repository.
 
-This repository intentionally does not contain the complete production source code, proprietary implementation details, private assets, configuration, or internal business logic.
+This showcase intentionally does **not** contain:
+
+- complete production source code
+- proprietary implementation details
+- full production assets
+- internal business logic
+- environment configuration
+- security-sensitive documentation
+- deployment internals
+
+The public repository is intentionally not a complete buildable copy of the production application.
 
 ## Project Status
 
-Production application completed.
+**Production application completed.**
 
-Security review and deployment preparation completed.
+Security review, dependency review, documentation, and deployment preparation have been completed.
 
 ## Rights
 
 © 2026 Casa Sombrero. All rights reserved.
 
-This showcase does not grant permission to reproduce, redistribute, resell, rebrand, or commercially reuse the Casa Sombrero project.
+This showcase does not grant permission to reproduce, redistribute, resell, rebrand, commercially deploy, or commercially reuse the Casa Sombrero project.
