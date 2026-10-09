@@ -16,39 +16,58 @@ The desktop experience behaves like an immersive visual scene, while mobile visi
 
 A single website and one domain serve both experiences.
 
-## Experience
-
-### Desktop
+## Desktop Experience
 
 The desktop experience is built around a cinematic restaurant environment rather than stacked webpage sections.
 
-It includes:
+It includes Main Dishes, Starters, Chef's Special, Chef Sauces, Drinks, Reservation, About Casa Sombrero, interactive dish presentation, and cinematic transitions.
 
-- Main Dishes
-- Starters
-- Chef's Special
-- Chef Sauces
-- Drinks
-- Reservation
-- About Casa Sombrero
-- Interactive dish presentation
-- Cinematic motion and transitions
+### Menu
 
-### Mobile
+<p align="center">
+  <img src="screenshots/desktop-menu.png" alt="Casa Sombrero desktop menu experience" width="100%" />
+</p>
+
+### Chef's Special
+
+<p align="center">
+  <img src="screenshots/desktop-chef-special.png" alt="Casa Sombrero Chef's Special experience" width="100%" />
+</p>
+
+### Reservation
+
+<p align="center">
+  <img src="screenshots/desktop-reservation.png" alt="Casa Sombrero desktop reservation experience" width="100%" />
+</p>
+
+## Mobile Ordering Experience
 
 The same website automatically presents a mobile-first ordering experience on smaller screens.
 
-Customers can:
+Customers can choose dine-in or delivery, browse the menu, add dishes to their cart, review their order, enter delivery details, and use table-specific dine-in flows.
 
-- Choose dine-in or delivery
-- Browse the menu
-- Add dishes to their cart
-- Review their order
-- Enter delivery details
-- Use table-specific dine-in flows
+### Order Mode
 
 <p align="center">
-  <img src="screenshots/mobile-home.png" alt="Casa Sombrero mobile ordering experience" width="390" />
+  <img src="screenshots/mobile-home.png" alt="Casa Sombrero mobile ordering home" width="390" />
+</p>
+
+### Dine-In
+
+<p align="center">
+  <img src="screenshots/mobile-dine-in.png" alt="Casa Sombrero mobile dine-in experience" width="390" />
+</p>
+
+### Dine-In Menu
+
+<p align="center">
+  <img src="screenshots/mobile-dine-in-menu.png" alt="Casa Sombrero mobile dine-in menu" width="390" />
+</p>
+
+### Delivery
+
+<p align="center">
+  <img src="screenshots/mobile-delivery.png" alt="Casa Sombrero mobile delivery experience" width="390" />
 </p>
 
 ## Responsive Strategy
@@ -76,22 +95,9 @@ Built with:
 
 ## Design Direction
 
-The desktop experience prioritizes:
+The desktop experience prioritizes cinematic composition, visual storytelling, depth and atmosphere, object-based interaction, controlled motion, and immersive transitions.
 
-- cinematic composition
-- visual storytelling
-- depth and atmosphere
-- object-based interaction
-- controlled motion
-- immersive transitions
-
-The mobile experience prioritizes:
-
-- clarity
-- touch interaction
-- ordering speed
-- simple navigation
-- strong restaurant-brand continuity
+The mobile experience prioritizes clarity, touch interaction, ordering speed, simple navigation, and strong restaurant-brand continuity.
 
 ## Architecture
 
